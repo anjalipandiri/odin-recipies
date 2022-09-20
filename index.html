@@ -5,21 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>My favorite Recipes</h1>
-    <img src="images/home.jpg" />
-    <ul>
-      <li><a href="./recipes/basicCrepes.html"> Basic Crepes</a></li>
-      <li>
-        <a href="./recipes/hummus-and-prosciutto-wrap.html">
-          Hummus and Prosciutto Wrap</a>
-      </li>
-      <li>
-        <a href="./recipes/no-bake-cheesecake.html">
-            No Bake Cheesecake</a>
-      </li>
-      <li><a href="./recipes/balsamicbruschetta.html">Balsamic Bruschetta</a> </li>
-    </ul>
+    
+    <div class="header-logo">
+      <a href="index.html" class="nav">
+        <img class="logo" src="images/PassionBlog.png" />
+      </a>
+    </div>
+    <h1 id="header">Passion Blog</h1>
+    <div class="row">
+    <div class="column">
+      <ul class="list">
+        <li class="list-item">
+          <a href="./recipes/basicCrepes.html" class="link">
+            <img class="imgicon" src="../images/breakfast.jpg" alt="Breakfast"/></a>
+        </li>
+        <li class="list-item">
+          <a href="./recipes/hummus-and-prosciutto-wrap.html" class="link">
+            <img class="imgicon" src="../images/lunch.jpg" alt="Lunch"/></a>
+        </li>
+        <li class="list-item">
+          <a href="./recipes/no-bake-cheesecake.html" class="link">
+            <img class="imgicon" src="../images/snack.jpg" alt="Snacks"/></a>
+        </li>
+        <li class="list-item">
+          <a href="./recipes/balsamicbruschetta.html" class="link">
+            <img class="imgicon" src="../images/dinner.jpg" alt="Dinner"/></a>
+        </li>
+      </ul>
+    </div>
+  </div>
   </body>
 </html>

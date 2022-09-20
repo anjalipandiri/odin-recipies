@@ -1,0 +1,79 @@
+.header-logo{
+    text-align: center;
+}
+#header{
+    color: green;
+    text-align: center;
+}
+.list{
+    list-style-type: none;
+    text-align: center;
+}
+.list-item{
+    display: inline-block;
+    margin: 25px;
+    padding: 15px;
+}
+.link{
+    text-decoration: none;
+}
+.imgicon{
+    width: 300px;
+    height: 300px;
+}
+.recipePage{
+    background-color: grey;
+    color: white;
+}
+.recipeName{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+}
+#recipeImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+.back-link{
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+button a{
+    background-color: black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+button{
+    background-color: black;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ingredients{
+    float:left;
+}
+.steps{
+    float: right;
+}
+ul{
+    font-size: 18px;
+}
+ol{
+    list-style-type: none;
+    font-size: 16px;
+}
+.stepsDesc{
+    overflow-wrap: break-word;
+    font-size: 16px;
+}
+.nutri{
+    float: left;
+}

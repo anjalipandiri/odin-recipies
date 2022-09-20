@@ -5,38 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Crepes</title>
+    <link rel="stylesheet" href="../style.css">
   </head>
-  <body>
-    <h1>Basic Crepes</h1>
-    <p><a href="../index.html">Back To Main Page</a></p>
-    <img src="../images/crepe.jpg" alt="Crepe" />
-    <h2>Description</h2>
-    <h4>Ingredients</h4>
-    <ul>
-      <li type="circle">1 cup all-purpose flour</li>
-      <li type="circle">2 eggs</li>
-      <li type="circle">½ cup milk</li>
-      <li type="circle">½ cup water</li>
-      <li type="circle">¼ teaspoon salt</li>
-      <li type="circle">2 tablespoons butter, melted</li>
-    </ul>
-    <h4>Steps</h4>
-    <ol>
-      <li>
-        In a large mixing bowl, whisk together the flour and the eggs. Gradually
-        add in the milk and water, stirring to combine. Add the salt and butter;
-        beat until smooth.
-      </li>
-      <li>
-        Heat a lightly oiled griddle or frying pan over medium high heat. Pour
-        or scoop the batter onto the griddle, using approximately 1/4 cup for
-        each crepe. Tilt the pan with a circular motion so that the batter coats
-        the surface evenly.
-      </li>
-      <li>
-        Cook the crepe for about 2 minutes, until the bottom is light brown.
-        Loosen with a spatula, turn and cook the other side. Serve hot.
-      </li>
-    </ol>
+  <body class="recipePage">
+    <h1 class="recipeName">Basic Crepes</h1>
+    <button><a class="back-link" href="../index.html">Back</a></button>
+    <img id="recipeImg" src="../images/crepe.jpg" alt="Crepe" />
+    <h4>Description</h4>
+    <p>Here is a simple but delicious crepe batter which can be made in minutes. It's made from ingredients that everyone has on hand.</p>
+    <div>
+    <div class="ingredients">
+      <h4>Ingredients</h4>
+      <ul>
+        <li type="circle">1 cup all-purpose flour</li>
+        <li type="circle">2 eggs</li>
+        <li type="circle">½ cup milk</li>
+        <li type="circle">½ cup water</li>
+        <li type="circle">¼ teaspoon salt</li>
+        <li type="circle">2 tablespoons butter, melted</li>
+      </ul>
+    </div>
+    <div class="steps">
+      <h4>Directions</h4>
+      <ol>
+        <li class="stepsDesc">
+          <p><b>Step 1:</b> In a large mixing bowl, whisk together the flour and the eggs. Gradually
+          add in the milk and water, stirring to combine. Add the salt and butter;
+          beat until smooth.</p>
+        </li>
+        <li class="stepsDesc">
+          <p><b>Step 2:</b> Heat a lightly oiled griddle or frying pan over medium high heat. Pour
+          or scoop the batter onto the griddle, using approximately 1/4 cup for
+          each crepe. Tilt the pan with a circular motion so that the batter coats
+          the surface evenly.</p>
+        </li>
+        <li class="stepsDesc">
+          <p><b>Step 3:</b> Cook the crepe for about 2 minutes, until the bottom is light brown.
+          Loosen with a spatula, turn and cook the other side. Serve hot.</p>
+        </li>
+      </ol>
+    </div>
+    </div>
+    <!-- <div class="nutri">
+      <h4>Nutrition Facts</h4>
+      <p><b>Per Serving:</b> 216 calories; protein 7.4g; carbohydrates 25.5g; fat 9.2g; cholesterol 110.7mg; sodium 235.3mg.</p>
+    </div> -->
   </body>
 </html>
